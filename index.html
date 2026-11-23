@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teleacademy</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <section id="vista-inicio" class="pantalla-inicio">
+        <div class="caja-bienvenida">
+            <div class="logo-teleacademy">Tele<span>academy</span></div>
+            <h1 id="saludo">Cargando...</h1>
+            <p id="reloj">00:00:00</p>
+            <button id="btn-ingresar" class="boton">Ingresar</button>
+        </div>
+    </section>
+
+    <section id="vista-aprendizaje" class="contenedor oculto">
+        <h1>Categoría de cursos</h1>
+        <p class="subtitulo">Click para que dirigirse a una guía</p>
+
+        <div class="fila-tarjetas">
+            <div class="tarjeta">
+                <h2>Lenguajes de Programación</h2>
+                <ul>
+                    <li><a href="index.html?tema=pseint" target="_blank">PSeInt</a></li>
+                    <li><a href="index.html?tema=cpp" target="_blank">C++</a></li>
+                    <li><a href="index.html?tema=python" target="_blank">Python</a></li>
+                    <li><a href="index.html?tema=java" target="_blank">Java</a></li>
+                </ul>
+            </div>
+
+            <div class="tarjeta">
+                <h2>Simulación</h2>
+                <ul>
+                    <li><a href="index.html?tema=packet-tracer" target="_blank">Cisco Packet Tracer</a></li>
+                    <li><a href="index.html?tema=gns3" target="_blank">GNS3</a></li>
+                    <li><a href="index.html?tema=gnu-radio" target="_blank">GNU Radio</a></li>
+                    <li><a href="index.html?tema=proteus" target="_blank">Proteus</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <button id="btn-volver" class="enlace-volver">← Volver</button>
+    </section>
+
+
+    <section id="vista-guia" class="contenedor-guia oculto">
+        <h1 id="titulo-guia">Guía</h1>
+        <hr>
+
+
+        <div id="zona-editable" class="zona-contenido">
+            <p>Aquí podrás colocar tu información, pasos e imágenes de este tema.</p>
+        </div>
+
+        <button onclick="window.close()" class="boton">Cerrar pestaña</button>
+    </section>
+
+    <script src="java.js"></script>
+</body>
+</html>

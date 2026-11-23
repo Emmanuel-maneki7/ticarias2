@@ -1,0 +1,197 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url("contenedor/fondo2.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #1e293b;
+}
+
+.oculto {
+    display: none !important;
+}
+
+.pantalla-inicio {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    text-align: center;
+    padding: 20px;
+
+    background-image: linear-gradient(135deg, rgba(30, 27, 75, 0.72), rgba(37, 99, 235, 0.65)), url("contenedor/fondo.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.caja-bienvenida {
+    background: #ffffff;
+    padding: 40px 30px;
+    border-radius: 12px;
+    border-top: 5px solid #7c3aed;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.08);
+    max-width: 420px;
+    width: 100%;
+}
+
+.logo-teleacademy {
+    display: inline-block;
+    background: #1e1b4b;
+    color: #ffffff;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+
+.logo-teleacademy span {
+    color: #38bdf8;
+}
+
+#saludo {
+    font-size: 24px;
+    color: #7c3aed;
+    margin-bottom: 6px;
+}
+
+#reloj {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 24px;
+}
+
+.boton {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+    padding: 12px 28px;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.boton:hover {
+    background: #1d4ed8;
+}
+
+.contenedor h1 {
+    color: #ffffff;
+}
+
+.enlace-volver {
+    color: #e2e8f0;
+}
+.subtitulo {
+    color: #e2e8f0; 
+    margin: 8px 0 35px;
+}
+
+.contenedor {
+    max-width: 850px;
+    margin: 50px auto;
+    padding: 0 20px;
+    text-align: center;
+}
+
+.subtitulo {
+    color: #475569;
+    margin: 8px 0 35px;
+}
+
+.fila-tarjetas {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+}
+
+.tarjeta {
+    background: #ffffff;
+    width: 320px;
+    padding: 25px;
+    border-radius: 12px;
+    border-top: 5px solid #7c3aed;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+    text-align: left;
+}
+
+.tarjeta h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.tarjeta ul {
+    list-style: none;
+}
+
+.tarjeta li {
+    margin-bottom: 10px;
+}
+
+.tarjeta a {
+    color: #2563eb;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.tarjeta a::before {
+    content: "▶ ";
+    color: #ec4899;
+    font-size: 12px;
+}
+
+.tarjeta a:hover {
+    text-decoration: underline;
+}
+
+.enlace-volver {
+    margin-top: 30px;
+    background: none;
+    border: none;
+    color: #475569;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+.enlace-volver:hover {
+    text-decoration: underline;
+}
+
+
+.contenedor-guia {
+    max-width: 800px;
+    margin: 40px auto;
+    background: #ffffff;
+    padding: 30px;
+    border-radius: 12px;
+    border-top: 5px solid #2563eb;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+}
+
+.contenedor-guia hr {
+    margin: 15px 0 20px;
+    border: none;
+    border-top: 1px solid #e2e8f0;
+}
+
+.zona-contenido {
+    margin-bottom: 25px;
+}
+
+.zona-contenido img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 15px 0;
+    border-radius: 8px;
+}
